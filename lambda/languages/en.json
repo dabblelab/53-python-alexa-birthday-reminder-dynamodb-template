@@ -1,0 +1,74 @@
+{
+    "SKILL_NAME": "the Dabble Lab birthday reminder skill",
+    "GREETING": [
+        "Welcome to {}. What would you like to do?"
+    ],
+    "GREETING_REPROMPT": [
+        "What would you like to do?"
+    ],
+    "ASK_NAME": [
+        "Please tell me the first name of the person whose birthday you want to add."
+    ],
+    "ASK_NAME_REPROMPT": [
+        "Tell me the first name of the person whose birthday you want to add."
+    ],
+    "ASK_DOB": [
+        "Okay. Now please tell me {}'s date of birth."
+    ],
+    "ASK_DOB_REPROMPT": [
+        "Please tell me their date of birth."
+    ],
+    "BIRTHDAY_SAVED": [
+        "I've successfully saved the new birthday entry. What would you like to know?"
+    ],
+    "BIRTHDAY_SAVED_REPROMPT": [
+        "What would you like to know?"
+    ],
+    "TELL_DOB":[
+        "{}'s birthday is on <say-as interpret-as='date' format='md'>{}</say-as>. What else would you like to know?"
+    ],
+    "TELL_DOB_REPROMPT":[
+        "What else would you like to know?"
+    ],
+    "TELL_NEAREST_DOB":[
+        "{}'s birthday is coming up next and it is in {} days. What else would you like to know?"
+    ],
+    "TELL_NEAREST_DOB_REPROMPT":[
+        "What else would you like to know?"
+    ],
+    "DELETE_ALL":[
+        "I have successfully deleted all the birthday records. What would you like to do now?"
+    ],
+    "DELETE_ALL_REPROMPT":[
+        "What else would you like to do?"
+    ],
+    "DELETE_SPECIFIC":[
+        "I've successfully deleted {}'s birthday from the database. What would you like to do now?"
+    ],
+    "DELETE_SPECIFIC_REPROMPT":[
+        "What else would you like to do?"
+    ],
+    "REPEAT": [
+      "I said... {}"
+    ],
+    "REPEAT_REPROMPT": [
+      "{}"
+    ],
+    "HELP": [
+      "This skill demonstrates how to read, write, update and add delete attribute values from dynamo DB."
+    ],
+    "HELP_REPROMPT": [
+      "This skill demonstrates how to read, write, update and add delete attribute values from dynamo DB."
+    ],
+    "FALLBACK": [
+      "Sorry, I didn't understand that. Can you please repeat that?"
+    ],
+    "FALLBACK_REPROMPT": [
+      "Can you say that again?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Good Bye"
+    ],
+    "ERROR": "Sorry, I wasn't able to handle your last request. Could you say that again?",
+    "ERROR_REPROMPT": "Could you say that again?"
+}

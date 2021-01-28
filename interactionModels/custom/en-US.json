@@ -1,0 +1,137 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "template fifty three",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "SpecifyBirthdayIntent",
+          "slots": [
+            {
+              "name": "DOBSlot",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "{DOBSlot}",
+            "the date of birth is {DOBSlot}",
+            "she was born on {DOBSlot}",
+            "her date of birth is {DOBSlot}",
+            "he was born on {DOBSlot}",
+            "His date of birth is {DOBSlot}",
+            "born on {DOBSlot}",
+            "{DOBSlot} is when I was born",
+            "{DOBSlot} is my date of birth",
+            "I was born on {DOBSlot}",
+            "my date of birth is {DOBSlot}"
+          ]
+        },
+        {
+          "name": "SpecifyNameIntent",
+          "slots": [
+            {
+              "name": "NameSlot",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "{NameSlot} is the name",
+            "{NameSlot}",
+            "Her name is {NameSlot}",
+            "His name is {NameSlot}",
+            "The name is {NameSlot}"
+          ]
+        },
+        {
+          "name": "AddNewBirthdayIntent",
+          "slots": [],
+          "samples": [
+            "add new birthday",
+            "add a birthday entry to the skill",
+            "I want to add a new birthday",
+            "add a new birthday"
+          ]
+        },
+        {
+          "name": "CheckBirthdayIntent",
+          "slots": [
+            {
+              "name": "PersonNameSlot",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "when is the birthday of {PersonNameSlot}",
+            "when is {PersonNameSlot} birthday"
+          ]
+        },
+        {
+          "name": "NextBirthdayIntent",
+          "slots": [],
+          "samples": [
+            "next birthday",
+            "when is the next birthday coming up",
+            "whose birthday is next",
+            "tell me about the upcoming birthday",
+            "Whose birthday is coming up next"
+          ]
+        },
+        {
+          "name": "DeleteSpecificBirthdayIntent",
+          "slots": [
+            {
+              "name": "DeleteNameSlot",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "remove {DeleteNameSlot} birthday from the database",
+            "delete the birthday record of {DeleteNameSlot}",
+            "delete {DeleteNameSlot} birhtday record",
+            "delete {DeleteNameSlot} birthday"
+          ]
+        },
+        {
+          "name": "DeleteAllBirthdaysIntent",
+          "slots": [],
+          "samples": [
+            "delete all birthday records from dynamodb",
+            "delete all birthdays from the database",
+            "delete all the birthdays",
+            "delete all birthdays"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "2"
+}
